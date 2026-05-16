@@ -2,7 +2,7 @@ require "spec_helper"
 
 require_relative "../../../ruby/behavioral/strategy/01_problem/payment_processor"
 
-RSpec.describe PaymentProcessor do
+RSpec.describe StrategyPattern::Problem::PaymentProcessor do
   describe "#process" do
     it "processes credit card payments" do
       processor = described_class.new
